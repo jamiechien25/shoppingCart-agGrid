@@ -1,0 +1,9 @@
+ <app-nav-bar></app-nav-bar>
+<ag-grid-angular style="width: 90%; height: 500px; margin: 30px;" class="ag-theme-balham" [rowData]="rowData" [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" (cellValueChanged)="onCellValueChanged($event)" [enableCellChangeFlash]="true" [rowSelection]="rowSelection"  (rowSelected)="onRowSelected($event)">
+</ag-grid-angular>
+
+<app-delete-box-page (pushToCart)="getChild($event)"
+   (selectData)="getRowDaraForSelect($event)" [selectedProducts]="selectedProducts" ></app-delete-box-page>
+
+   <div class="btn-center"><button class="go-checkout-btn" (click)="goCheckOut()">前往結帳</button></div>
+

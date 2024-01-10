@@ -1,0 +1,51 @@
+:host {
+  display: block;
+}
+
+.all-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-container {
+  margin: 20px
+}
+
+.img-contain {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.product-box {
+  width: 200px;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-around
+}
+
+.btn-box{
+  display: flex;
+  justify-content: right
+}
+
+button{
+  border: none;
+  background-color:rgb(194, 121, 66);
+  border-radius: 5px;
+  color:rgb(255, 255, 255);
+  margin:10px
+}
+button:hover{
+  border: none;
+  background-color:rgb(114, 68, 19);
+  border-radius: 5px;
+  color:rgb(238, 236, 230)
+}
+button:focus{
+  border: none;
+}
+
+
+

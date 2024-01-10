@@ -1,0 +1,34 @@
+<section style=" background-color: rgba(230, 198, 161, 0.856);">
+<p class="login-title">Get ready to SHOP!<br/> Log in now for the ultimate shopping experience!</p>
+<div style="padding:20px 0;" class="login-page-contain">
+  <div class="img-contain">
+    <img style="width:100%;height:100%;object-fit: cover;" alt="example" src="../../../assets/Img/photo-home.jpg" />
+  </div>
+  <mat-card class="login-card-container">
+    <div class="login-box-container">
+      <mat-card-title>Login</mat-card-title>
+      <mat-card-content>
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+          <p>
+            <mat-form-field>
+              <input type="text" matInput placeholder="Username" formControlName="email">
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field>
+              <input type="password" matInput placeholder="Password" formControlName="password">
+            </mat-form-field>
+          </p>
+
+          <div class="button">
+            <button type="submit" mat-button>Login</button>
+          </div>
+
+          <button class="button-auth" (click)="OAuthLogIn()">OAuth登錄</button>
+
+        </form>
+      </mat-card-content>
+    </div>
+  </mat-card>
+</div>
+</section>

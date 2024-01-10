@@ -1,0 +1,14 @@
+<div class="nav">
+  <p class="img-contain">
+    GoShop
+  </p>
+  <ul style="display: flex; justify-content: center;">
+    <li (click)="goProduct()"> 商品頁</li>
+    <li (click)="goCart()"> 購物車</li>
+    <li (click)="home()">首頁</li>
+  </ul>
+  <div  style="display: flex;">
+    <p style="font-weight: 600;">{{user}}&nbsp;</p>
+    <p class="logout" *ngIf="isLogin" (click)="logout()">登出</p>
+  </div>
+</div>

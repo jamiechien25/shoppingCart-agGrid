@@ -1,0 +1,75 @@
+{
+    "loadproduct": {
+        "products": [{
+                "productId": "1",
+                "productName": "好看眼鏡",
+                "productPrice": 123,
+                "productCount": 1,
+                "productDesc": "一個鏡框 + 兩個鏡片"
+            },
+            {
+                "productId": "2",
+                "productName": "好看鞋子",
+                "productPrice": 234,
+                "productCount": 1,
+                "productDesc": "(只賣一隻，下單記得買兩隻)"
+            },
+            {
+                "productId": "3",
+                "productName": "好看手錶",
+                "productPrice": 124,
+                "productCount": 1,
+                "productDesc": "只有時針分針沒有數字才好看"
+            },
+            {
+                "productId": "4",
+                "productName": "好看筆",
+                "productPrice": 125,
+                "productCount": 1,
+                "productDesc": "就是好看"
+            },
+            {
+                "productId": "5",
+                "productName": "好看手錶pro",
+                "productPrice": 128,
+                "productCount": 1,
+                "productDesc": "這次連時針分針都沒有 更好看"
+            },
+            {
+                "productId": "6",
+                "productName": "好看背包",
+                "productPrice": 1111,
+                "productCount": 1,
+                "productDesc": "讓你走的很緩慢的那個背包"
+            },
+            {
+                "productId": "7",
+                "productName": "好用保養品們",
+                "productPrice": 12312,
+                "productCount": 1,
+                "productDesc": "不好用老闆砍頭"
+            },
+            {
+                "productId": "8",
+                "productName": "好看水壺",
+                "productPrice": 1233,
+                "productCount": 1,
+                "productDesc": "買就對了"
+            }
+        ],
+        "cart": [],
+        "checkOut": []
+    },
+    "signupUsers": {
+        "user": [{
+                "email": "jj@gmail.com",
+                "password": "1234"
+            },
+            {
+                "email": "aa@gmail.com",
+                "password": "111"
+            }
+        ]
+
+    }
+}

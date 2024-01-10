@@ -1,0 +1,13 @@
+<h2 style="text-align: center;">訂單結果</h2>
+
+<div class="order-info">
+  <h3>訂單人資訊</h3>
+  <p>訂單人Email: {{email}}</p>
+  <p>訂單人姓名:{{name}}</p>
+  <p>訂單日期:{{DateShow}}</p>
+</div>
+
+<ag-grid-angular style="width: 90%; height: 500px; margin: 30px;" class="ag-theme-balham" [rowData]="rowData"
+  [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" [groupIncludeFooter]="true"
+  (gridReady)="onGridReady($event)" [groupIncludeTotalFooter]="true">
+</ag-grid-angular>

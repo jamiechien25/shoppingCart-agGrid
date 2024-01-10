@@ -1,0 +1,42 @@
+:host {
+  display: block;
+}
+
+.nav{
+  background-color: rgba(230, 198, 161, 0.856);;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  list-style: none;
+  font-weight: 600;
+  color: rgb(52, 52, 52);
+  margin-left: 20px;
+}
+li:hover{
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+  color: rgb(132, 73, 10);
+  margin-left: 20px;
+}
+
+.img-contain {
+  color: rgb(255, 253, 250);
+  font-family: 'Kalnia', serif;
+  font-weight: 600;
+  border:2px solid white;
+  border-radius: 20px;
+  padding: 2px;
+  display: flex;
+  line-height: 50px;
+}
+
+.logout{
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 5px;
+}
+
